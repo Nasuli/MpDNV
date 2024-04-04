@@ -1,0 +1,15 @@
+5Non-mRNA
+pre-NS_long
+spliced-NS_long
+pre-NS_short
+spliced-NS_short
+intron_NS
+pre_VP_as
+spliced_VP_as
+intron1_VP_as
+intron2_VP_as
+pre_VP_s
+spliced_VP_s
+intron1_VP_s
+intron2_VP_s
+3Non-mRNA
