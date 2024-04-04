@@ -6,4 +6,4 @@ In our experiment, we conducted sRNA sequencing of aphids (M. persicae). From th
 To visualize RNA logos for each MpDNV genome part, size class, and strand, I created the **RNA_logo_maker.R** script. 
 Here are some examples of the resulting RNA logo pictures:
 ![pre_VP_as-27M-forward-bit](https://github.com/Nasuli/MpDNV/assets/39988388/0922d779-e7ef-4331-b3af-e6de8af59273)
-![spliced_VP_s-27M-revc-reverse-bit](https://github.com/Nasuli/MpDNV/assets/39988388/6280e391-3720-44c5-8284-b527a60e032c)
+![pre_VP_as-26M-revc-reverse-bit](https://github.com/Nasuli/MpDNV/assets/39988388/52a90e18-3b36-4e69-9b39-76317e4f44f6)
