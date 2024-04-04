@@ -1,7 +1,6 @@
 #!/bin/bash
-# corrections from 04.04.24
 
- for i in 375; do
+ for i in {368..375}; do
 	echo "work with sample $i"
 	cd ALYU-structure-$i
 	mkdir forward revc-reverse
