@@ -7,7 +7,7 @@
 #  At the experiment we had 8 sRNA libraries (from ALYU-368 to ALYU-375).  #
 ############################################################################
 
-setwd("~/Main_folder/ROME_proj/Results_for_structure")
+setwd("~/MpDNV/RNA_logo")
 #install.packages (c("ggseqlogo", "ggplot2"))
 
 library(ggseqlogo)
@@ -22,9 +22,9 @@ GenomeParts = c("5Non-mRNA", "pre-NS_long", "spliced-NS_long", "pre-NS_short", "
                "pre_VP_s", "spliced_VP_s", "intron1_VP_s", "intron2_VP_s", "3Non-mRNA")
 ReadsOrientation = c('forward', 'revc-reverse')
 
-main_path <- "~/Main_folder/ROME_proj/Results_for_structure" # the path to folder where folders with samples are stored (usually the same as working directory)
+main_path <- "~/MpDNV/RNA_logo" # the path to folder where folders with samples are stored (usually the same as working directory)
 
-output_log_file <- "~/Main_folder/ROME_proj/Results_for_structure/ALYU-RNA_logo_creation.log"
+output_log_file <- "~/MpDNV/RNA_logo/ALYU-RNA_logo_creation.log"
 sink(output_log_file, append = T, split=T) # to make a log file with the number of reads for each combination SampleNumber/SizeClasses/GenomeParts/ReadsOrientation
 # sink arguments:"append" - add new info, not overwrite the file; "split" - show info messages on the console and write them into the file at the same time
 
